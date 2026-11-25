@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.picasso)
     implementation(libs.gson)
     implementation(libs.androidx.viewpager2)
+    implementation("org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
