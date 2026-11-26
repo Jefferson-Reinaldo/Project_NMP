@@ -33,6 +33,10 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
+            android:name=".AddEditQuestionActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".ExamActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />

@@ -79,7 +79,7 @@ class LoginActivity : AppCompatActivity() {
         binding.progressBarLogin.visibility = View.VISIBLE
         binding.btnLogin.isEnabled = false
 
-        // Pola Volley langsung di Activity sesuai materi Week 11
+        // Penggunaan Volley
         val queue = Volley.newRequestQueue(this)
         val url = GlobalData.BASE_URL + "login.php"
 
